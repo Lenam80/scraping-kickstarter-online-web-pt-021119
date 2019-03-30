@@ -2,6 +2,8 @@ require 'nokogirl'
 require 'pry'
 
 binding.pry
+kickstarter.css("li.project.grid_4").first
+learn 
 def create_project_hash
 html = File.read('fixtures/kickstarter.html')
 
